@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-27T18:24:24 IST" name="Suite" finished-at="2025-07-27T18:24:51 IST" duration-ms="27799">
+    <groups>
+    </groups>
+    <test started-at="2025-07-27T18:24:24 IST" name="Test" finished-at="2025-07-27T18:24:51 IST" duration-ms="27799">
+      <class name="com.TestCases.InventoryPageTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:24 IST" name="setUp" finished-at="2025-07-27T18:24:28 IST" duration-ms="4723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:29 IST" name="setup" finished-at="2025-07-27T18:24:29 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateProductLinkClickFunctionality()[pri:1, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:29 IST" name="validateProductLinkClickFunctionality" finished-at="2025-07-27T18:24:30 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductLinkClickFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:30 IST" name="tearDown" finished-at="2025-07-27T18:24:30 IST" duration-ms="405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:30 IST" name="setUp" finished-at="2025-07-27T18:24:33 IST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:33 IST" name="setup" finished-at="2025-07-27T18:24:34 IST" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addToCartFunctionality()[pri:2, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:34 IST" name="addToCartFunctionality" finished-at="2025-07-27T18:24:34 IST" duration-ms="468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:34 IST" name="tearDown" finished-at="2025-07-27T18:24:34 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:34 IST" name="setUp" finished-at="2025-07-27T18:24:37 IST" duration-ms="2963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:37 IST" name="setup" finished-at="2025-07-27T18:24:38 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMultipleProducstoCart()[pri:3, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:38 IST" name="addMultipleProducstoCart" finished-at="2025-07-27T18:24:39 IST" duration-ms="566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleProducstoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.InventoryPageTestCases@3feb2dda]" started-at="2025-07-27T18:24:39 IST" name="tearDown" finished-at="2025-07-27T18:24:39 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.InventoryPageTestCases -->
+      <class name="com.TestCases.LoginPageTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:39 IST" name="setUp" finished-at="2025-07-27T18:24:42 IST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="doLogin()[pri:1, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:42 IST" name="doLogin" finished-at="2025-07-27T18:24:42 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:42 IST" name="tearDown" finished-at="2025-07-27T18:24:43 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:44 IST" name="setUp" finished-at="2025-07-27T18:24:47 IST" duration-ms="2641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:2, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:47 IST" name="validateLogin" data-provider="TestDataAndConfigs" finished-at="2025-07-27T18:24:47 IST" duration-ms="570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Umang]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Umang123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:47 IST" name="tearDown" finished-at="2025-07-27T18:24:48 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:48 IST" name="setUp" finished-at="2025-07-27T18:24:50 IST" duration-ms="2685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String)[pri:2, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:50 IST" name="validateLogin" data-provider="TestDataAndConfigs" finished-at="2025-07-27T18:24:51 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.TestCases.LoginPageTestCases@37313c65]" started-at="2025-07-27T18:24:51 IST" name="tearDown" finished-at="2025-07-27T18:24:51 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.TestCases.LoginPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
