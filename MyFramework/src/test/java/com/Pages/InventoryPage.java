@@ -51,7 +51,7 @@ public class InventoryPage {
 	{
 		firstAddtoCartButton.click();
 		shoppingCartIcon.click();
-		return new CartPage();
+		return new CartPage(driver);
 	}
 	public String getSecondProductName()
 	{
@@ -66,6 +66,6 @@ public class InventoryPage {
 		firstAddtoCartButton.click();
 		fourthProductAddToCartButton.click();
 		shoppingCartIcon.click();
-		return new CartPage();
+		return new CartPage(driver);
 	}
 }

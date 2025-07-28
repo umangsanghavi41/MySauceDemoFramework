@@ -29,6 +29,7 @@ public class BaseClass
 	public PropertyFileDataRead propertyFileDataRead;
 	public GetPageData getPageData;
 	public InventoryPage invenPage;
+	public CartPage cartPage;
 	
 	@BeforeMethod
 	public void setUp()
@@ -45,6 +46,7 @@ public class BaseClass
 		driver.manage().window().maximize();
 		loginPage=new LoginPage(driver);	
 		invenPage=new InventoryPage(driver);
+		cartPage=new CartPage(driver);
 	}
 	
 	@AfterMethod
