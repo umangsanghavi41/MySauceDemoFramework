@@ -16,9 +16,11 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import com.Pages.CartPage;
+import com.Pages.CheckoutPage;
 import com.Pages.InventoryItemPage;
 import com.Pages.InventoryPage;
 import com.Pages.LoginPage;
+import com.Pages.OverviewPage;
 import com.Utilities.GetPageData;
 import com.Utilities.PropertyFileDataRead;
 
@@ -30,6 +32,8 @@ public class BaseClass
 	public GetPageData getPageData;
 	public InventoryPage invenPage;
 	public CartPage cartPage;
+	public CheckoutPage checkoutPage;
+	public OverviewPage overviewPage;
 	
 	@BeforeMethod
 	public void setUp()
@@ -47,6 +51,8 @@ public class BaseClass
 		loginPage=new LoginPage(driver);	
 		invenPage=new InventoryPage(driver);
 		cartPage=new CartPage(driver);
+		checkoutPage=new CheckoutPage(driver);
+		overviewPage=new OverviewPage(driver);
 	}
 	
 	@AfterMethod

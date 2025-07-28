@@ -64,8 +64,9 @@ public class CartPage
 			return false;
 		}
 	}
-	public void clickCheckoutButton()
+	public CheckoutPage clickCheckoutButton()
 	{
 		checkoutButton.click();
+		return new CheckoutPage(driver);
 	}
 }

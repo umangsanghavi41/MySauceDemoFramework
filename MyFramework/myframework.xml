@@ -5,6 +5,9 @@
     <classes>
       <class name="com.TestCases.InventoryPageTestCases"/>
       <class name="com.TestCases.LoginPageTestCases"/>
+      <class name="com.TestCases.OverviewPageTestCases"/>
+      <class name="com.TestCases.CheckoutTestCases"/>
+       <class name="com.TestCases.CartPageTestCases"/>
       <class name="com.BaseClass.BaseClass"/>
     </classes>
   </test> <!-- Test -->
