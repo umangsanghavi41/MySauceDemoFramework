@@ -7,14 +7,16 @@ import org.testng.annotations.Test;
 
 import com.BaseClass.BaseClass;
 import com.Utilities.ExcelFileDataReading;
+import com.Utilities.RetryAnalyzer;
 
 public class LoginPageTestCases extends BaseClass {
+	
 
 	@Test(priority = 1)
 	public void doLogin() {
 		loginPage.doLogin(propertyFileDataRead.readData("username"), propertyFileDataRead.readData("password"));
 		String url = getPageData.getURL();
-		Assert.assertTrue(url.contains("inventory"));
+		Assert.assertTrue(url.contains("inventorysssss"));
 		System.out.println("User is logged in! Test case passed");
 	}
 
