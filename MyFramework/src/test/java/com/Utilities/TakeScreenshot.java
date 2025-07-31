@@ -1,5 +1,6 @@
 package com.Utilities;
 
-public class TakeScreenshot {
-
+public class TakeScreenshot 
+{
+	
 }

@@ -12,11 +12,11 @@ import com.Utilities.RetryAnalyzer;
 public class LoginPageTestCases extends BaseClass {
 	
 
-	@Test(priority = 1)
+	@Test(priority = 1,retryAnalyzer = RetryAnalyzer.class)
 	public void doLogin() {
 		loginPage.doLogin(propertyFileDataRead.readData("username"), propertyFileDataRead.readData("password"));
 		String url = getPageData.getURL();
-		Assert.assertTrue(url.contains("inventorysssss"));
+		Assert.assertTrue(url.contains("inventory"));
 		System.out.println("User is logged in! Test case passed");
 	}
 
