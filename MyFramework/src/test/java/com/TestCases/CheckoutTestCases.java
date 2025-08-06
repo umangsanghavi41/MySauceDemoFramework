@@ -15,10 +15,20 @@ public class CheckoutTestCases extends BaseClass{
 			cartPage = invenPage.addProducttoCart();
 			checkoutPage=cartPage.clickCheckoutButton();
 			}
-  @Test
+  @Test(priority = 1)
   public void doCheckout() 
   {
 	  checkoutPage.doCheckout(propertyFileDataRead.readData("checkoutfirstname"), propertyFileDataRead.readData("checkoutlastname"), propertyFileDataRead.readData("zipcode"));
 	  String url=getPageData.getURL();
+	  String acturl=getPageData.getURL();
+	  Assert.assertEquals(url, acturl);
+  }
+  
+  @Test(priority = 2)
+  public void cancelCheckout()
+  {
+	  checkoutPage.checkCancelButtonFunctionality();
+	  String expectedTitle=checkoutPage.getCartTitle();
+	  Assert.assertEquals(expectedTitle,"Your Cart");
   }
 }

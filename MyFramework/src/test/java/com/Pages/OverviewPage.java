@@ -21,9 +21,10 @@ public class OverviewPage {
 	
 	@FindBy(css=".inventory_list")
 	WebElement inventoryList;
-	public void finishCheckout()
+	public Confirmationpage finishCheckout()
 	{
 		finishButton.click();
+		return new Confirmationpage(driver);
 	}
 	
 	public void cancelCheckout()

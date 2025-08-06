@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeMethod;
 
 import com.Pages.CartPage;
 import com.Pages.CheckoutPage;
+import com.Pages.Confirmationpage;
 import com.Pages.InventoryItemPage;
 import com.Pages.InventoryPage;
 import com.Pages.LoginPage;
@@ -35,6 +36,7 @@ public class BaseClass
 	public CartPage cartPage;
 	public CheckoutPage checkoutPage;
 	public OverviewPage overviewPage;
+	public Confirmationpage confirmationpage;
 	
 	@BeforeMethod
 	public void setUp()
@@ -54,6 +56,7 @@ public class BaseClass
 		cartPage=new CartPage(driver);
 		checkoutPage=new CheckoutPage(driver);
 		overviewPage=new OverviewPage(driver);
+		confirmationpage=new Confirmationpage(driver);
 	}
 	
 	@AfterMethod

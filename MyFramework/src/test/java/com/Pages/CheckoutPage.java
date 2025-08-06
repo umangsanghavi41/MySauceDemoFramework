@@ -29,6 +29,12 @@ public class CheckoutPage {
 	@FindBy(css="#continue")
 	WebElement continueButton;
 	
+	@FindBy(id = "cancel")
+	WebElement cancelButton;
+	
+	@FindBy(className = "title")
+	WebElement cartTitle;
+	
 	public OverviewPage doCheckout(String firstname,String lastname,String zipcode)
 	{
 		firstNameTextField.sendKeys(firstname);
@@ -36,5 +42,16 @@ public class CheckoutPage {
 		postalCode.sendKeys(zipcode);
 		continueButton.click();
 		return new OverviewPage(driver);
-	}	
+	}
+	
+	public CartPage checkCancelButtonFunctionality()
+	{
+		cancelButton.click();
+		return new CartPage(driver);
+	}
+	
+	public String getCartTitle()
+	{
+		return cartTitle.getText();
+	}
 }
